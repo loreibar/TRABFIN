@@ -1,0 +1,41 @@
+.btn {
+    background-color: #414040;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 20px 23px;
+    border: 1px solid #414040;
+    border-radius: 4px;
+    outline: none;
+}
+.btn-green {
+    background-color:hsl(139.41deg 58.62% 54.51%);
+    color: black;
+    font-size: 1em;
+    font-weight:bold;
+    text-align: center;
+    padding: 20px 23px;
+    border: 1px solid hsl(139.41deg 58.62% 54.51%);
+    border-radius: 4px;
+    outline: none;
+}
+.btn-black {
+    background-color:black;
+    color: white;
+    font-size: 1em;
+    font-weight:bold;
+    text-align: center;
+    padding: 20px 23px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+}
+.btn1 {
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+}

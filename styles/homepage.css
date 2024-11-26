@@ -1,0 +1,53 @@
+/*Medium Section Styles*/
+.medium-section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background: linear-gradient(to right, #404040, black);
+    gap: 50px;
+}
+.medium-section > .left-column {
+    padding: 0px 30px;
+}
+.medium-section > .left-column > .btn-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2em;
+}
+.medium-section > .left-column > .text1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    color: #cbcbcb;
+}
+.medium-section > .left-column > .text1 span{
+    font-weight: bold;
+    color: white
+}
+.medium-section > .left-column > .text2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+    color: #cbcbcb;
+}   
+.medium-section > .right-column {
+    display:flex;
+    flex-direction: column;
+}
+.medium-section > .right-column img {
+    width: 50em;
+    margin: 0px 0px 20px 0px;
+    float: right;
+    border: 1px #cea135;
+}
+.medium-section > .right-column > .text3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: #cbcbcb;  
+}
+.medium-section > .right-column > .text3 p {
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+.page-container > .content-wrapper p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
